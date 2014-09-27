@@ -1,4 +1,12 @@
-/* normalize.css v3.0.0 | MIT License | git.io/normalize */
+/* Global Style Sheets */
+
+/* Call new open style fonts */
+@font-face {
+    font-family: UniversLTStd-Black;
+    src: url("UniversLTStd/UniversLTStd-Black.otf") format("opentype");
+}
+
+
 html, body {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
