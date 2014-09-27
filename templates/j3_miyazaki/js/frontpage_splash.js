@@ -4618,7 +4618,7 @@ app.fpScrollingSpeed = 700, app.body_classes = null, app.scrollingDirection = nu
             e.removeClass("visible")
         }, 300)
     }};
-    $('a[data-imagelightbox="gallery-1"]').imageLightbox(s), $('a[data-imagelightbox="gallery-2"]').imageLightbox(s);
+    $('a[data-imagelightbox="gallery-armchairs"]').imageLightbox(s), $('a[data-imagelightbox="gallery-chairs"]').imageLightbox(s), $('a[data-imagelightbox="gallery-sofas"]').imageLightbox(s), $('a[data-imagelightbox="gallery-stools"]').imageLightbox(s);
     var n = {bouncescroll: !1, oneaxismousemode: !1, horizrailenabled: !1, cursorwidth: 10, cursorborderradius: "5px", cursoropacitymax: .1, railoffset: {left: 6, top: 0}};
     $(".scrollable-black").niceScroll($.extend(n, {cursorborder: "1px solid #000", cursorcolor: "#000"})), $(".scrollable-white").niceScroll($.extend(n, {cursorborder: "1px solid #fff", cursorcolor: "#fff"})), $("#stores").niceScroll(".stores", $.extend(n, {cursorborder: "1px solid #fff", cursorcolor: "#fff"})), $("#intro").niceScroll("#intro > article", $.extend(n, {cursorborder: "1px solid #000", cursorcolor: "#000"}))
 }, app.fullpageAfterLoad = function (e, i) {
