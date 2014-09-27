@@ -6,6 +6,10 @@
     src: url("UniversLTStd/UniversLTStd-Black.otf") format("opentype");
 }
 
+@font-face {
+    font-family: UniversLTStd-Ex;
+    src: url("UniversLTStd/UniversLTStd-Ex.otf") format("opentype");
+}
 
 html, body {
     font-family: sans-serif;
@@ -447,7 +451,7 @@ ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+    font-family: 'UniversLTStd-Black', Sans-Serif;
     font-weight: 700;
     font-style: normal
 }
@@ -602,7 +606,7 @@ h6 + p {
 
 .hero > em {
     display: block;
-    font-family: 'Lora', serif;
+    font-family: 'UniversLTStd-Ex', sans-serif;
     font-size: 1.143em;
     font-weight: normal;
     float: left;
