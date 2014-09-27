@@ -1,4 +1,4 @@
-wwwMiyazaki
-===========
+www.miyazaki.be
+===============
 
 Miyazaki Website
