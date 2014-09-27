@@ -1146,15 +1146,19 @@ h6 + p {
     display: none
 }
 
-.logo path, .section-header-black-light .logo path {
+.logo path, .logo text, .section-header-black-light .logo path, .section-header-black-light .logo text {
     fill: #282828
 }
 
-.section-header-white .logo path {
+.section-header-white .logo path, .section-header-white .logo text {
     fill: #f7f7f7
 }
 
-.section-header-gray .logo path {
+#lightbox-overlay .log text {
+    fill: #ffffff;
+}
+
+.section-header-gray .logo path, .section-header-gray .logo text {
     fill: #9c9c9c
 }
 
