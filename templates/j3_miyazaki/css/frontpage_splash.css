@@ -296,6 +296,7 @@ html, body {
     display: block;
     padding: 0;
     position: relative;
+    padding-bottom: 15px;
 }
 
 #fp-nav li a, .fp-slidesNav li a {
@@ -314,16 +315,16 @@ html, body {
 
     border: 2px solid #000;
     left: 3px;
-    width: 13px;
-    height: 13px
+    width: 24px;
+    height: 24px
 }
 
 #fp-nav span, .fp-slidesNav span {
     border:solid 2px;
     display: block;
     position: absolute;
-    width: 13px;
-    height: 13px;
+    width: 24px;
+    height: 24px;
     left:3px;
     background: rgba(0, 0, 0, 0.85);
     -webkit-border-radius: 50%;
