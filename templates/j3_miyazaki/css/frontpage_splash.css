@@ -2244,3 +2244,8 @@ h6 + p {
 .hiddengallery {
     display:none;
 }
+
+.logotitle {
+    font-size: 20px;
+    font-weight: bold;
+}
