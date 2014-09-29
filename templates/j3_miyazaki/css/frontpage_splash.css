@@ -578,7 +578,7 @@ h6 + p {
 }
 
 .container > .inner {
-    margin-left: 12.5%;
+    /* margin-left: 12.5%; */
     margin-right: 12.5%
 }
 
