@@ -572,13 +572,14 @@ h6 + p {
 .container {
     max-width: 1200px;
     height: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     position: relative;
     z-index: 1;
 }
 
 .container > .inner {
-    /* margin-left: 12.5%; */
+    /* margin-left: 12.5%; Old Margin*/
+    margin-left: 60px; /* new margin that matches logo */
     margin-right: 12.5%
 }
 
@@ -1309,6 +1310,9 @@ h6 + p {
         height: 33.3333333333333%
     }
     .height-3-3 {
+        height: 50%;
+    }
+    .height-1-2 {
         height: 50%;
     }
 }
