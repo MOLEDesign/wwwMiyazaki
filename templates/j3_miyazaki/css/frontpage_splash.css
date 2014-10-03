@@ -743,7 +743,7 @@ h6 + p {
     -webkit-transition: -webkit-transform 3s ease-out;
     -moz-transition: -moz-transform 3s ease-out;
     -o-transition: -o-transform 3s ease-out;
-    -ms-transition: -ms-transform 3s ease-out;
+    /* -ms-transition: -ms-transform 3s ease-out; */
     transition: transform 3s ease-out
 }
 
@@ -751,7 +751,7 @@ h6 + p {
     -webkit-transform: scale(1.04, 1.04);
     -moz-transform: scale(1.04, 1.04);
     -o-transform: scale(1.04, 1.04);
-    -ms-transform: scale(1.04, 1.04);
+    /* -ms-transform: scale(1.04, 1.04); */
     transform: scale(1.04, 1.04)
 }
 
