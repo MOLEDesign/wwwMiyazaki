@@ -872,6 +872,10 @@ h6 + p {
     width: 33.3333333333333%
 }
 
+.width-1-5 {
+    width: 20%
+}
+
 .width-3-8 {
     width: 37.5%
 }
@@ -1299,15 +1303,15 @@ h6 + p {
 
 @media only screen and (max-width: 768px) {
     .smallscreenonly {
-        display: block
+        display: block !important;
     }
 
     .largescreenonly {
-        display:none;
+        display:none !important;
     }
 
     .section-home #fp-nav {
-        display:none;
+        display:none !important;
     }
 
 }
@@ -2300,4 +2304,8 @@ h6 + p {
     font-size: 20px;
     font-weight: bold;
     text-transform: lowercase;
+}
+
+.push-20 {
+    top:20%;
 }
