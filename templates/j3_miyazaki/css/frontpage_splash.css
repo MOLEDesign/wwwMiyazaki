@@ -509,7 +509,7 @@ h4, h5 {
 }
 
 p {
-    margin: 2.3em 0;
+    margin: 2.1em 0;
 }
 
 h6 + p {
@@ -567,7 +567,7 @@ h6 + p {
     height: 100%;
     max-height: 752.5px;
     padding: 100px 0;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 @media only screen and (max-width: 991px) {
@@ -636,12 +636,23 @@ h6 + p {
 
 .background {
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .half-width {
     width: 50%
+}
+
+.width40 {
+    width: 40%
+}
+
+@media only screen and (max-width: 991px) and (orientation: portrait) {
+    .width40 {
+        width: 100%;
+    }
+
 }
 
 .half-height {
@@ -938,7 +949,13 @@ h6 + p {
 }
 
 .scrollable-container-and-button {
-    padding-bottom: 80px
+    padding-bottom: 10px
+}
+
+@media only screen and (max-width: 991px) {
+    .scrollable-container-and-button {
+        padding-bottom: 80px
+    }
 }
 
 .scrollable-container .btn {
@@ -1423,6 +1440,23 @@ h6 + p {
     opacity: 1;
     -ms-filter: none;
     filter: none
+}
+
+.lightboxclose {
+    display:none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .lightboxclose {
+        display:block;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        bottom:10px;
+        left:10px;
+        text-transform: lowercase;
+    }
+
 }
 
 .view {
@@ -2327,4 +2361,17 @@ h6 + p {
     font-size: 20px;
     line-height: 24px;
     white-space: nowrap;
+}
+
+@media only screen and (max-width: 991px) and (orientation: portrait) {
+    .section-header {
+        bottom:10px;
+        right:10px;
+    }
+
+}
+
+.absolutebottom {
+    bottom:0px !important;
+    top:inherit !important;
 }
